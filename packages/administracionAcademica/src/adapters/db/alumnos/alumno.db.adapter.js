@@ -32,6 +32,7 @@ module.exports = {
   deleteAlumnoQuery: deleteAndFindQuery(Alumno),
   deleteAlumnoTipoTramiteQuery: deleteAndFindQuery(AlumnoTipoTramite),
   deletePersonaQuery: deleteAndFindQuery(Persona),
+  createPersonaQuery: createQuery(Persona),
   findAllAlumnosQuery: findAllQuery(Alumno),
   findOneAsignaturaQuery: findOneQuery(Asignatura),
   findOneCalificacionQuery: findOneQuery(Calificacion),

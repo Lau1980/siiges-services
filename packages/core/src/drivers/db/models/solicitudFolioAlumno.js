@@ -63,6 +63,7 @@ const SolicitudFolioAlumnoSchema = {
     allowNull: true,
     type: DataTypes.DATE,
     field: 'fecha_terminacion',
+    defaultValue: null,
   },
   fechaElaboracion: {
     allowNull: true,

@@ -20,6 +20,7 @@ module.exports = {
     programas.findOneProgramaQuery,
     alumnos.createAlumnoQuery,
     alumnos.createAlumnoTipoTramiteQuery,
+    alumnos.createPersonaQuery,
   ),
   findOneAlumno: findOneAlumno(
     alumnos.findOneAlumnoQuery,

@@ -10,7 +10,7 @@ const findPlantelProgramas = (
     where.plantelId = identifierObj.plantelId;
   }
 
-  return findPlantelProgramasQuery(where, { include });
+  return findPlantelProgramasQuery(identifierObj, { include });
 };
 
 module.exports = { findPlantelProgramas };
